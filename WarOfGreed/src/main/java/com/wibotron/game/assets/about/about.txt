@@ -1,0 +1,74 @@
+======================================================INTRO=============================================================
+
+                         Welcome to "War Of Greed" turn based rpg text-based game
+                                this game is designed to be played strategically
+                            you can choose 'vs Player mode' or 'vs COM mode' on this game
+
+====================================================HEROES TYPE=========================================================
+
+1. Attacker Type
+   * Speciality : The Best Damage Dealer
+   * Actions    : - Attack Opponent     : dealing big damage to opponent specifically.
+                  - Attack All Opponent : dealing a fair and distributed damage to all opponents.
+2. Healer Type
+   * Speciality : Healing Teammates
+   * Actions    : - Attack Opponent    : dealing damage to an opponent specifically.
+                  - Healing Teammate   : healing teammate specifically, with healing power equals to its current attack.
+                  - Healing a Whole Teammates : healing all teammates with fair and distributed healing power.
+                  - NOTES : (healing power == support's current DMG).
+3. Tanker Type
+   * Speciality : Protecting Teammates
+   * Actions    : - Attack Opponent     : dealing damage to opponent specifically.
+                  - Protect Teammate    : protecting teammate specifically by sharing  its  half    defence
+                                         power, it causes the tank losing his half defense. its    defence
+                                         power would be back normal if an enemy has attacked the protected
+                                         teammate.
+                  - Protect a Whole Teammates : protecting all teammates by sharing its distributed defense power fairly.
+                  - NOTES : if the protected one is attacked, the protected one's defense will be back to base defense.
+                            , then the protected one surplus defense will be back to the tank.
+4. Buffer Type
+   * Speciality : Buffing a hero's DMG (increasing & decreasing)
+   * Actions    : - Attack Opponent : dealing damage to opponent specifically.
+                  - Increase Teammate's DMG : increasing teammate's damage for randomly damage power (6-11 DMG power).
+                  - Decrease Opponent's DMG : decreasing opponent's damage for randomly damage power (6-11 DMG power).
+                  - Increase Teammate's DEF : increasing teammate's defense for randomly defense power (6-11 DEF power).
+                  - Decrease Opponent's DEF : decreasing opponent's defense for randomly damage power (6-11 DMG power).
+5. Poisoner Type
+   * Speciality : Using poison to make your opponent hurt
+   * Actions    : - Attack Opponent  : dealing damage to opponent specifically.
+                  - Poison Mode      : whoever attacks Toxicologist when it is using poison mode, they will get hit by
+                                       its poison for (Toxicologist current damage - attacker current defense).
+                  - Sleeping Poison  : whoever gets thrown by sleeping poison, they won't be able to do anything in the
+                                       next one turn
+
+=================================================BATTLE SPELL===========================================================
+
+1. Meteor-Rain
+   * Speciality : AoE damage.
+   * Action     : Metor-Rain Attacks a whole Opponents with 60 DMG power divided by amout of opponent members.
+
+2. Thunder-Strike
+   * Speciality : Specific and Critical damage.
+   * Actions    : Thunder strikes opponent with 30 DMG power.
+
+3. Vampiric-Touch
+   * Speciality : Attack and Reward.
+   * Actions    : Vampiric-Touch lets you to take opponent's HP and give it to your hero.
+
+4. Life-Switcher/Sacrificer
+   * Speciality : Sacrifice.
+   * Actions    : It lets you to switch the life between your two heroes with some terms.
+   * Terms      : it works iff the one giving its life has larger currentHealth and baseHealth than the receiver one.
+
+===========================================ELEMENTAL EFFECTIVENESS======================================================
+   🔥 Fire  --> 🪙 Metal
+   💧 Water --> 🔥 Fire
+   🪙 Metal --> 🌿 Wood
+   🌿 Wood  --> 🌍 Earth
+   🌍 Earth --> 💧 Water
+==================================================SUGGESTION============================================================
+
+                                    Play it on your CMD for the best game experience !
+
+========================================================================================================================
+Creator:@Wibotron.ai

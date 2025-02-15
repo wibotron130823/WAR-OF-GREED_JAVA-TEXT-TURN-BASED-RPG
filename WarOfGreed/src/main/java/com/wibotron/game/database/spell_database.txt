@@ -1,0 +1,4 @@
+Meteor-Rain;Giving AoE Damage to Opponent Team
+Thunder-Strike;Giving Critical Damage to Specific Opponent
+Vampiric-Touch;Your hero can take Opponent's health
+Life-Switcher;Switch the Life of Your Heroes
